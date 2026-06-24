@@ -1,4 +1,4 @@
-name: Build and Publish ikun-nav Docker Image
+name: Build and Publish inav Docker Image
 
 on:
   workflow_dispatch: # 允许在 GitHub Actions 页面手动点击一键触发构建
