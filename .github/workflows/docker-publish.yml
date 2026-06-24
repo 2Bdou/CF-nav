@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/${{ github.repository_owner }}/ikun_nav
+          images: ghcr.io/${{ github.repository_owner }}/inav
           # 👇 修改这里的 tags 逻辑：完美联动手动输入的版本号 👇
           tags: |
             type=raw,value=latest
